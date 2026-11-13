@@ -1,0 +1,78 @@
+{
+    "student-host:host": {
+        "hostname": "Chetna",
+        "os": "windows",
+        "collected-at": "2026-11-10T16:40:32.835364+00:00",
+        "dns-server": [
+            "192.168.0.1"
+        ],
+        "interface": [
+            {
+                "name": "HotspotShield Network Adapter",
+                "type": "virtual",
+                "oper-status": "down",
+                "mtu": 1500,
+                "ipv4": [
+                    "169.254.187.20/16"
+                ],
+                "ipv6": [
+                    "fe80::6489:e43c:3051:8212/64"
+                ],
+                "mac": "00:ff:9a:xx:xx:xx"
+            },
+            {
+                "name": "Ethernet 2",
+                "type": "virtual",
+                "oper-status": "up",
+                "mtu": 1500,
+                "ipv4": [
+                    "192.168.56.1/24"
+                ],
+                "ipv6": [
+                    "fe80::3573:c057:fc71:4572/64"
+                ],
+                "mac": "0a:00:27:xx:xx:xx"
+            },
+            {
+                "name": "Bluetooth Network Connection",
+                "type": "other",
+                "oper-status": "down",
+                "mtu": 1500,
+                "ipv4": [
+                    "169.254.213.61/16"
+                ],
+                "ipv6": [
+                    "fe80::b90f:5a62:1045:98d4/64"
+                ],
+                "mac": "80:32:53:xx:xx:xx"
+            },
+            {
+                "name": "Ethernet",
+                "type": "ethernet",
+                "oper-status": "down",
+                "mtu": 1500,
+                "ipv4": [
+                    "169.254.114.232/16"
+                ],
+                "ipv6": [
+                    "fe80::4c9b:aff3:87b8:2d4c/64"
+                ],
+                "mac": "c4:65:16:xx:xx:xx"
+            },
+            {
+                "name": "Wi-Fi",
+                "type": "wifi",
+                "oper-status": "up",
+                "mtu": 1500,
+                "ipv4": [
+                    "192.168.0.107/24"
+                ],
+                "ipv6": [
+                    "fe80::49b3:4f02:f6d1:aa6/64"
+                ],
+                "mac": "80:32:53:xx:xx:xx"
+            }
+        ],
+        "default-gateway": "192.168.0.1"
+    }
+}
